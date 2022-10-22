@@ -310,6 +310,10 @@ function jsmin(comment, input, level) {
 	jsmin.oldSize = input.length;
 	ret = m(input);
 	jsmin.newSize = ret.length;
+	
+	jsmin.oldSize = input.length;
+	ret = m(input);
+	jsmin.newSize = ret.length;
 
 	return comment + ret;
 
