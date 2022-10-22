@@ -12,6 +12,9 @@ table.tablesorter th {
 table.tablesorter td {
 	color: #FFF;
 	padding: 5px;
+table.tablesorter td {
+	color: #FFF;
+	padding: 5px;
 }
 table.tablesorter .even {
 	background-color: #3D3D3D;
